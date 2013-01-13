@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Zackary Corbett</string>
+	<key>Builder Version</key>
+	<string>7534.51.22</string>
+	<key>CFBundleDisplayName</key>
+	<string>3 Column Reader</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.ZCorbett.ThreeColumnReader</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.0.3</string>
+	<key>CFBundleVersion</key>
+	<string>3.0.3</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict/>
+		<key>Stylesheets</key>
+		<array>
+			<string>columnizer.css</string>
+		</array>
+		<key>Whitelist</key>
+		<array>
+			<string>http://www.google.com/reader/view/*</string>
+			<string>https://www.google.com/reader/view/*</string>
+			<string>http://www.google.co.uk/reader/view/*</string>
+			<string>https://www.google.co.uk/reader/view/*</string>
+			<string>http://www.google.de/reader/view/*</string>
+			<string>https://www.google.de/reader/view/*</string>
+			<string>http://www.google.com.pr/reader/view/*</string>
+			<string>https://www.google.com.pr/reader/view/*</string>
+			<string>http://www.google.gr/reader/view/*</string>
+			<string>https://www.google.gr/reader/view/*</string>
+			<string>http://www.google.ie/reader/view/*</string>
+			<string>https://www.google.ie/reader/view/*</string>
+			<string>http://www.google.it/reader/view/*</string>
+			<string>https://www.google.it/reader/view/*</string>
+			<string>http://www.google.es/reader/view/*</string>
+			<string>https://www.google.es/reader/view/*</string>
+			<string>http://www.google.com.br/reader/view/*</string>
+			<string>https://www.google.com.br/reader/view/*</string>
+			<string>http://www.google.cl/reader/view/*</string>
+			<string>http://www.google.hk/reader/view/*</string>
+			<string>https://www.google.hk/reader/view/*</string>
+			<string>http://www.google.jp/reader/view/*</string>
+			<string>https://www.google.jp/reader/view/*</string>
+			<string>http://www.google.in/reader/view/*</string>
+			<string>https://www.google.in/reader/view/*</string>
+			<string>http://www.google.sg/reader/view/*</string>
+			<string>https://www.google.sg/reader/view/*</string>
+			<string>http://www.google.com.au/reader/view/*</string>
+			<string>https://www.google.com.au/reader/view/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Makes Google Reader 3 Columns.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string></string>
+	<key>Website</key>
+	<string>http://zackarycorbett.com/</string>
+</dict>
+</plist>

@@ -1,0 +1,13 @@
+{
+	"name": "3 Column Reader",
+	"version": "3.0.3",
+	"description": "Makes Google Reader 3 Columns.",
+	"homepage_url": "http://zackarycorbett.com/",
+	"update_url": "",
+	"content_scripts": [
+		{
+			"matches": ["*://www.google.com/reader/view/*", "*://www.google.co.uk/reader/view/*", "*://www.google.de/reader/view/*", "*://www.google.com.pr/reader/view/*", "*://www.google.gr/reader/view/*", "*://www.google.ie/reader/view/*, *://www.google.it/reader/view/*, *://www.google.es/reader/view/*, *://www.google.com.br/reader/view/*", "*://www.google.cl/reader/view/*", "*://www.google.hk/reader/view/*", "*://www.google.jp/reader/view/*", "*://www.google.in/reader/view/*", "*://www.google.sg/reader/view/*", "*://www.google.com.au/reader/view/*"],
+			"css": ["columnizer.css"]
+		}
+	]
+}
